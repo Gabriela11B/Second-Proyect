@@ -63,16 +63,30 @@ body{
    
 }
 
-.character{
+.character1, .character2, .character3{
     border: 2px solid black;
     border-radius: 6px;
     width:300px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 14px;
+    margin-top: 14px;
+    
 }
 
-.character:hover{
+
+
+.character1:hover{
+    transition: all 0.5seg ;
+    transform:scale(1.1)
+    
+} 
+.character2:hover{
+    transition: all 0.5seg ;
+    transform:scale(1.1)
+    
+} 
+.character3:hover{
     transition: all 0.5seg ;
     transform:scale(1.1)
     
